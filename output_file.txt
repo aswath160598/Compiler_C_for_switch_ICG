@@ -1,0 +1,29 @@
+i = 1
+L1 :
+t0 = 1 == i
+ifFalse t0 goto L6
+k = 0
+L2 :
+t1 = k < j
+ifFalse t1 goto L5
+goto L3
+L4 : 
+t2 = k + 1
+k = t2
+goto L2
+L3 :
+po = 9
+t3 = j - k
+j = t3
+goto L4
+L5 : 
+goto next1
+L6 :
+t4 = 2 == i
+ifFalse t4 goto L11
+j = 30
+goto next1
+L7 :
+t5 = 20 * 15
+j = t5
+next1 :
